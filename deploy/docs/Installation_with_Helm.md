@@ -253,7 +253,7 @@ helm rollback my-release <REVISION-NUMBER>
 To uninstall/delete the Helm chart:
 
 ```bash
-helm delete my-release
+helm uninstall my-release
 ```
 
 > **Helm3 Tip**: In Helm3 the default behavior is to purge history.
